@@ -1,0 +1,231 @@
+/* 1 - Integração inical */
+
+h1 {
+    color: blue;
+}
+
+/* 2 - Comentários com CSS*/
+
+/* 3 - id - #*/
+
+h3 {
+    color: green;
+}
+
+#title {
+    color: lime;
+
+}
+
+/* 4 - classes - . */
+
+.text {
+    color: blueviolet;
+}
+
+/* 5 - background*/
+/*podemos colocar mais de uma regra para mudar background, cor do texto e tamanho do texto*/
+.background {
+    background-color: red;
+    color: blue;
+    font-size: 30px;
+}
+/* 6 - dois elemntos, uma regra*/
+
+/*Cham os dois e poe uma regra*/
+p, .title-small{
+    color: darkmagenta;
+}
+
+/*Chama uma só desta vez e coloca uma regra separada da outra*/
+.title-small {
+    font-size: 25px;
+}
+
+/* 7 - Background image*/
+.background-image {
+    background-image: url("../img/meteoro.jpg");
+    padding: 20px;
+    color: white;
+    margin: 20px;
+
+}
+
+/*8 - largura e altura*/
+#width-height{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+/*9 - padding*/
+#padding {
+    background-color: magenta;
+    padding: 20px;
+}
+/*10 - margin*/
+#margin { 
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+}
+
+/*11 - border*/
+#border{
+    border: 3px solid red;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+/*12 - border radius*/
+#border-radius{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+    border: 3px dashed blue;
+}
+
+/* 13 - Cores */
+#rgb, 
+#hsl, 
+#hex {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#hex {
+    background-color: #09af;
+}
+
+#rgb {
+    background-color: rgb(123, 40, 99);
+}
+
+#hsl {
+    background-color: hsl(242, 75%, 44%);
+}
+/* 14 - Alinhamento de texto */
+
+#center{
+    text-align: center;
+}
+
+/* 15 - decoration*/
+#underline {
+    text-decoration: underline;
+}
+
+#line{
+    text-decoration: line-through;
+}
+
+/*O link normalmente já vem com a linha mas podemos tirar*/
+#sem-underline{
+    text-decoration: none;
+}
+/* 16- font size */
+#fonte-pequena{
+    font-size: 10px;
+}
+
+/* 17 - transform*/
+#upper{
+    text-transform: uppercase;
+}
+#lower{
+    text-transform: lowercase;
+}
+/* 18 - font family*/
+#serif{
+    font-family: Georgia;
+}
+
+#sans-serif{
+    font-family: Helvetica;
+}
+
+#cursive{
+    font-family: cursive;
+}
+/* 19 - display */
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+}
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px;
+    display: block;
+}
+/* 20 - ocultando elementos*/
+#none{
+    display: none;
+}
+
+/* 21 - position*/
+
+#relative,
+#absolute,
+#fixed{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#relative{
+    background-color: blueviolet;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+#absolute{
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+#fixed {
+    background-color: rgb(197, 152, 152);
+    position: fixed;
+    top: 50px;
+    left: 20px;
+}
+/* 22 - relative com absolute */
+#relative2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+}
+
+#absolute1,
+#absolute2{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+
+}
+#absolute1{
+    top: 10px;
+    left: 10px;
+}
+#absolute2{
+    bottom: 10px;
+    right: 10px;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
